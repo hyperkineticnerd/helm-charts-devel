@@ -133,6 +133,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/dont-starve-together-0.1.0/dont-starve-together-0.1.0.tgz
     version: 0.1.0
+  element-web:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-01T00:19:08.847598632Z"
+    description: A Helm chart for Kubernetes
+    digest: 13c8a7f8adee9d1a1d436000f278c8128881cd3ed9586f9a7d4fe929b7b6c9e3
+    name: element-web
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/element-web-0.1.0/element-web-0.1.0.tgz
+    version: 0.1.0
   enshrouded:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -225,6 +236,28 @@ entries:
     type: application
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/mainsail-0.1.0/mainsail-0.1.0.tgz
+    version: 0.1.0
+  matrix-dendrite:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-01T00:19:09.021886299Z"
+    description: A Helm chart for Kubernetes
+    digest: 5b7047a7950fc05f277eb0d59f73aacde86cdd807d3de4034cde194a70a10dc7
+    name: matrix-dendrite
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/matrix-dendrite-0.1.0/matrix-dendrite-0.1.0.tgz
+    version: 0.1.0
+  matrix-synapse:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-01T00:19:09.184579594Z"
+    description: A Helm chart for Kubernetes
+    digest: 31b423d146efc914f22de83b8b843a9da2bbf39938ec74ae7f4e7cc581c6bced
+    name: matrix-synapse
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/matrix-synapse-0.1.0/matrix-synapse-0.1.0.tgz
     version: 0.1.0
   obico:
   - apiVersion: v2
@@ -363,4 +396,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-09-30T04:15:11.675760638Z"
+generated: "2024-10-01T00:19:09.184595393Z"
