@@ -259,6 +259,26 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/matrix-synapse-0.1.0/matrix-synapse-0.1.0.tgz
     version: 0.1.0
+  netbox:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-10-01T03:59:49.524972476Z"
+    dependencies:
+    - condition: postgresql.enable
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.37
+    - condition: redis.enable
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.3.7
+    description: A Helm chart for Kubernetes
+    digest: 7f034114a181b90344ee041d5e7f993e995c3a613ad1d24dc8d3fb5c0071b391
+    name: netbox
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/netbox-0.1.0/netbox-0.1.0.tgz
+    version: 0.1.0
   obico:
   - apiVersion: v2
     appVersion: 1.1.5
@@ -396,4 +416,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-01T00:19:09.184595393Z"
+generated: "2024-10-01T03:59:49.52499085Z"
