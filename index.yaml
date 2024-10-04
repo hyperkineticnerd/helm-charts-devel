@@ -185,6 +185,16 @@ entries:
   jellyfin:
   - apiVersion: v2
     appVersion: 10.9.9
+    created: "2024-10-04T13:00:22.789603275Z"
+    description: Installs Jellyfin Media Server on Kubernetes
+    digest: 451217cee6de3f3248e613942819c91274201df2779712ba923f6240c4b85691
+    name: jellyfin
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 10.9.9
     created: "2024-09-30T04:02:35.195208351Z"
     description: Installs Jellyfin Media Server on Kubernetes
     digest: 962bceefe61ac37f79d73a35412100a4bdc172353293398a687ca24b0446f77e
@@ -194,6 +204,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
     version: 0.1.0
   jellyseerr:
+  - apiVersion: v2
+    appVersion: 1.9.0
+    created: "2024-10-04T13:00:22.919654462Z"
+    description: Installs JellySeerr on Kubernetes
+    digest: c217fd70e701788a0101039d7275c6b830ce61d3f18f112197175326f4ea7a79
+    name: jellyseerr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyseerr-0.1.1/jellyseerr-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.9.0
     created: "2024-09-30T04:02:35.275394573Z"
@@ -454,4 +474,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-01T06:30:34.822503111Z"
+generated: "2024-10-04T13:00:22.919679518Z"
