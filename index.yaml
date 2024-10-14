@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  7-days-to-die:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2024-10-14T00:43:02.665404299Z"
+    description: A Helm chart for Kubernetes
+    digest: a0861f05f006340dd8207de6d95bf8e4c07b28beddb58afa2c20e42d3760908d
+    name: 7-days-to-die
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/7-days-to-die-0.1.1/7-days-to-die-0.1.1.tgz
+    version: 0.1.1
   7dtd:
   - apiVersion: v2
     appVersion: 0.4.4
@@ -494,4 +505,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-04T23:37:28.399889734Z"
+generated: "2024-10-14T00:43:02.66542095Z"
