@@ -313,6 +313,25 @@ entries:
   netbox:
   - apiVersion: v2
     appVersion: 4.1.1
+    created: "2024-11-02T02:05:53.60205563Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.37
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.3.7
+    description: A Helm chart for Kubernetes
+    digest: f005d3531c0c3dc7c3abe2165ba37ea67f312b6a3d947de428fe536f02972115
+    name: netbox
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.2.4/netbox-0.2.4.tgz
+    version: 0.2.4
+  - apiVersion: v2
+    appVersion: 4.1.1
     created: "2024-11-02T01:54:37.393422291Z"
     dependencies:
     - condition: postgresql.enabled
@@ -543,4 +562,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-02T01:54:37.393447938Z"
+generated: "2024-11-02T02:05:53.60208275Z"
