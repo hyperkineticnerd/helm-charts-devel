@@ -59,6 +59,16 @@ entries:
     version: 0.1.0
   bazarr:
   - apiVersion: v2
+    appVersion: 1.4.5
+    created: "2024-12-14T14:20:47.814671531Z"
+    description: A Helm chart for Kubernetes
+    digest: 95809aea2aacbe8f51cf41135f10f4b14cf737b7026e71e547baae0bf8817e7d
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/bazarr-0.1.1/bazarr-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-09-30T04:02:34.50220966Z"
     description: A Helm chart for Kubernetes
@@ -313,6 +323,25 @@ entries:
   netbox:
   - apiVersion: v2
     appVersion: 4.1.1
+    created: "2024-12-14T14:20:48.127052011Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.37
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 17.3.7
+    description: A Helm chart for Kubernetes
+    digest: 2cf00cc0a468e2d828dd1b0a9fa2f0e6c3dbc18d519d6b4b52abb383a47379dd
+    name: netbox
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.2.5/netbox-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: 4.1.1
     created: "2024-11-02T02:05:53.60205563Z"
     dependencies:
     - condition: postgresql.enabled
@@ -466,6 +495,16 @@ entries:
   palworld:
   - apiVersion: v2
     appVersion: 1.1.5
+    created: "2024-12-14T14:20:48.293946239Z"
+    description: A Helm chart for Kubernetes
+    digest: 436d5979e9f65bd8826c2ad01f0a0aa50207b8841c071d436deeec0678139269
+    name: palworld
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/palworld-0.1.1/palworld-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.1.5
     created: "2024-09-30T04:02:35.925312169Z"
     description: A Helm chart for Kubernetes
     digest: cfd4ea69819179f2e7d249c027c2ccf4a2f0acc10469265676884ef249f00b22
@@ -562,4 +601,26 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-02T02:05:53.60208275Z"
+  unifi:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-14T14:20:49.047405563Z"
+    description: A Helm chart for Kubernetes
+    digest: 59e282e0f5456d7cc817c50fab7267ea95e5d28772af816bdf70dd7bd0043a6d
+    name: unifi
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/unifi-0.1.0/unifi-0.1.0.tgz
+    version: 0.1.0
+  valheim:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-12-14T14:20:49.185347501Z"
+    description: A Helm chart for Kubernetes
+    digest: de5749a295e8031a64f7a5b401b106b8a31d2f3a71fe43a28f947f0ca583a376
+    name: valheim
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
+    version: 0.1.5
+generated: "2024-12-14T14:20:49.185409437Z"
