@@ -490,7 +490,7 @@ entries:
     name: openshift-servicemesh-operator
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/openshift-servicemesh-operator-0.1.0/openshift-servicemesh-operator-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/openshift-servicemesh-operator-0.1.0/openshift-servicemesh-operator-0.1.0.tgz
     version: 0.1.0
   palworld:
   - apiVersion: v2
