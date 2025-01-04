@@ -33,7 +33,7 @@ entries:
     sources:
     - https://github.com/alexnuttinck/helm-7dtd
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/7dtd-0.1.0/7dtd-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/7dtd-0.1.0/7dtd-0.1.0.tgz
     version: 0.1.0
   astroneer:
   - apiVersion: v2
@@ -44,7 +44,7 @@ entries:
     name: astroneer
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/astroneer-0.1.0/astroneer-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/astroneer-0.1.0/astroneer-0.1.0.tgz
     version: 0.1.0
   audiobookshelf:
   - apiVersion: v2
@@ -55,7 +55,7 @@ entries:
     name: audiobookshelf
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/audiobookshelf-0.1.0/audiobookshelf-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/audiobookshelf-0.1.0/audiobookshelf-0.1.0.tgz
     version: 0.1.0
   bazarr:
   - apiVersion: v2
@@ -76,7 +76,7 @@ entries:
     name: bazarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/bazarr-0.1.0/bazarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/bazarr-0.1.0/bazarr-0.1.0.tgz
     version: 0.1.0
   cert-manager:
   - apiVersion: v2
@@ -92,7 +92,7 @@ entries:
     name: cert-manager
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/cert-manager-1.0.0/cert-manager-1.0.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.0.0/cert-manager-1.0.0.tgz
     version: 1.0.0
   dendrite:
   - apiVersion: v2
@@ -117,7 +117,7 @@ entries:
     - https://github.com/matrix-org/dendrite
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/dendrite-0.14.7/dendrite-0.14.7.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/dendrite-0.14.7/dendrite-0.14.7.tgz
     version: 0.14.7
   - apiVersion: v2
     appVersion: 0.13.8
@@ -141,7 +141,7 @@ entries:
     - https://github.com/matrix-org/dendrite
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/dendrite-0.14.6/dendrite-0.14.6.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/dendrite-0.14.6/dendrite-0.14.6.tgz
     version: 0.14.6
   dont-starve-together:
   - apiVersion: v2
@@ -152,7 +152,7 @@ entries:
     name: dont-starve-together
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/dont-starve-together-0.1.0/dont-starve-together-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/dont-starve-together-0.1.0/dont-starve-together-0.1.0.tgz
     version: 0.1.0
   element-web:
   - apiVersion: v2
@@ -163,7 +163,7 @@ entries:
     name: element-web
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/element-web-0.1.0/element-web-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/element-web-0.1.0/element-web-0.1.0.tgz
     version: 0.1.0
   enshrouded:
   - apiVersion: v2
@@ -174,7 +174,7 @@ entries:
     name: enshrouded
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/enshrouded-0.1.0/enshrouded-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/enshrouded-0.1.0/enshrouded-0.1.0.tgz
     version: 0.1.0
   external-dns-operator:
   - apiVersion: v2
@@ -190,7 +190,7 @@ entries:
     name: external-dns-operator
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/external-dns-operator-0.1.0/external-dns-operator-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/external-dns-operator-0.1.0/external-dns-operator-0.1.0.tgz
     version: 0.1.0
   fluidd:
   - apiVersion: v2
@@ -201,7 +201,7 @@ entries:
     name: fluidd
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/fluidd-0.1.0/fluidd-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/fluidd-0.1.0/fluidd-0.1.0.tgz
     version: 0.1.0
   jellyfin:
   - apiVersion: v2
@@ -212,7 +212,7 @@ entries:
     name: jellyfin
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyfin-0.1.2/jellyfin-0.1.2.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyfin-0.1.2/jellyfin-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 10.9.9
@@ -222,7 +222,7 @@ entries:
     name: jellyfin
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 10.9.9
@@ -232,7 +232,7 @@ entries:
     name: jellyfin
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
     version: 0.1.0
   jellyseerr:
   - apiVersion: v2
@@ -243,7 +243,7 @@ entries:
     name: jellyseerr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyseerr-0.1.2/jellyseerr-0.1.2.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.2/jellyseerr-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.9.0
@@ -253,7 +253,7 @@ entries:
     name: jellyseerr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyseerr-0.1.1/jellyseerr-0.1.1.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.1/jellyseerr-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.9.0
@@ -263,7 +263,7 @@ entries:
     name: jellyseerr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/jellyseerr-0.1.0/jellyseerr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.0/jellyseerr-0.1.0.tgz
     version: 0.1.0
   lidarr:
   - apiVersion: v2
@@ -274,7 +274,7 @@ entries:
     name: lidarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
     version: 0.1.0
   lvm-storage:
   - apiVersion: v2
@@ -285,7 +285,7 @@ entries:
     name: lvm-storage
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/lvm-storage-0.1.0/lvm-storage-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lvm-storage-0.1.0/lvm-storage-0.1.0.tgz
     version: 0.1.0
   mainsail:
   - apiVersion: v2
@@ -296,7 +296,7 @@ entries:
     name: mainsail
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/mainsail-0.1.0/mainsail-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/mainsail-0.1.0/mainsail-0.1.0.tgz
     version: 0.1.0
   matrix-dendrite:
   - apiVersion: v2
@@ -307,7 +307,7 @@ entries:
     name: matrix-dendrite
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/matrix-dendrite-0.1.0/matrix-dendrite-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/matrix-dendrite-0.1.0/matrix-dendrite-0.1.0.tgz
     version: 0.1.0
   matrix-synapse:
   - apiVersion: v2
@@ -318,7 +318,7 @@ entries:
     name: matrix-synapse
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/matrix-synapse-0.1.0/matrix-synapse-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/matrix-synapse-0.1.0/matrix-synapse-0.1.0.tgz
     version: 0.1.0
   netbox:
   - apiVersion: v2
@@ -414,7 +414,7 @@ entries:
     name: netbox
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/netbox-0.2.1/netbox-0.2.1.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.2.1/netbox-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
@@ -433,7 +433,7 @@ entries:
     name: netbox
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/netbox-0.2.0/netbox-0.2.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.2.0/netbox-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
@@ -452,7 +452,7 @@ entries:
     name: netbox
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/netbox-0.1.0/netbox-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.1.0/netbox-0.1.0.tgz
     version: 0.1.0
   obico:
   - apiVersion: v2
@@ -463,7 +463,7 @@ entries:
     name: obico
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/obico-0.1.0/obico-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/obico-0.1.0/obico-0.1.0.tgz
     version: 0.1.0
   openshift-servicemesh-operator:
   - apiVersion: v2
@@ -511,7 +511,7 @@ entries:
     name: palworld
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/palworld-0.1.0/palworld-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/palworld-0.1.0/palworld-0.1.0.tgz
     version: 0.1.0
   prowlarr:
   - apiVersion: v2
@@ -522,7 +522,7 @@ entries:
     name: prowlarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/prowlarr-0.1.0/prowlarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/prowlarr-0.1.0/prowlarr-0.1.0.tgz
     version: 0.1.0
   radarr:
   - apiVersion: v2
@@ -533,7 +533,7 @@ entries:
     name: radarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
   readarr:
   - apiVersion: v2
@@ -544,7 +544,7 @@ entries:
     name: readarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
     version: 0.1.0
   satisfactory:
   - apiVersion: v2
@@ -555,7 +555,7 @@ entries:
     name: satisfactory
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/satisfactory-1.0.0/satisfactory-1.0.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/satisfactory-1.0.0/satisfactory-1.0.0.tgz
     version: 1.0.0
   sonarr:
   - apiVersion: v2
@@ -566,7 +566,7 @@ entries:
     name: sonarr
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sonarr-0.1.0/sonarr-0.1.0.tgz
     version: 0.1.0
   spoolman:
   - apiVersion: v2
@@ -577,7 +577,7 @@ entries:
     name: spoolman
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/spoolman-0.1.0/spoolman-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/spoolman-0.1.0/spoolman-0.1.0.tgz
     version: 0.1.0
   subnautica:
   - apiVersion: v2
@@ -588,7 +588,7 @@ entries:
     name: subnautica
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/subnautica-0.1.0/subnautica-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/subnautica-0.1.0/subnautica-0.1.0.tgz
     version: 0.1.0
   the-forest:
   - apiVersion: v2
@@ -599,7 +599,7 @@ entries:
     name: the-forest
     type: application
     urls:
-    - https://github.com/hyperkineticnerd/helm-charts/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/the-forest-0.1.0/the-forest-0.1.0.tgz
     version: 0.1.0
   unifi:
   - apiVersion: v2
