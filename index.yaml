@@ -60,6 +60,16 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.4.5
+    created: "2025-01-10T22:18:14.905378889Z"
+    description: A Helm chart for Kubernetes
+    digest: 5b8ddaf8a4bebb567414f1da7303d29451750cdf89b4f9f6b858a39f5b4e8df7
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/bazarr-0.9.3/bazarr-0.9.3.tgz
+    version: 0.9.3
+  - apiVersion: v2
+    appVersion: 1.4.5
     created: "2025-01-10T21:58:47.933961446Z"
     description: A Helm chart for Kubernetes
     digest: f254e9586db2b871f765603b0dd2f16e60d280d96d47b2bbb9adbdcfd273efc0
@@ -286,6 +296,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.0/jellyseerr-0.1.0.tgz
     version: 0.1.0
   lidarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T22:18:15.047332662Z"
+    description: A Helm chart for Kubernetes
+    digest: 2d0a2d3059f6dbfb1657f4ac96ae8c86c5a7348d563caabacbb0bf53de98dc66
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.9.3/lidarr-0.9.3.tgz
+    version: 0.9.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T21:58:48.053581798Z"
@@ -587,6 +607,16 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-01-10T22:18:15.17362088Z"
+    description: A Helm chart for Kubernetes
+    digest: c0a0c7a03548ce7142341b0645e1208a4b06d63fdf740e53ddb1ef15fa1ef61a
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.9.3/radarr-0.9.3.tgz
+    version: 0.9.3
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-10T21:58:48.172635663Z"
     description: A Helm chart for Kubernetes
     digest: 2d19bce41675bede4290c169fbfbbf49864c2fbe978f1f72a4e9731387b2bddc
@@ -626,6 +656,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
   readarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T22:18:15.27523552Z"
+    description: A Helm chart for Kubernetes
+    digest: e1cdf081210cc3053fca99c914417d4fc050168cbe04c2b8f7da5bba67650ded
+    name: readarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.9.3/readarr-0.9.3.tgz
+    version: 0.9.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T21:58:48.302111984Z"
@@ -678,6 +718,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/satisfactory-1.0.0/satisfactory-1.0.0.tgz
     version: 1.0.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T22:18:15.396163822Z"
+    description: A Helm chart for Kubernetes
+    digest: 652251f5b824db439cee67bb86092d0774cca9ea5411e4b8d2b5498d85671805
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sonarr-0.9.3/sonarr-0.9.3.tgz
+    version: 0.9.3
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T21:58:48.447719132Z"
@@ -773,4 +823,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-01-10T21:58:48.447850599Z"
+generated: "2025-01-10T22:18:15.396348939Z"
