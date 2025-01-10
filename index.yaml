@@ -706,6 +706,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
     version: 0.1.0
+  return-to-moria:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T22:19:46.300312464Z"
+    description: A Helm chart for Kubernetes
+    digest: 0749ae54a33e5509cdba263b82f8a71b4ccb66ed1d9d1bf0a9f3f22b5979b164
+    name: return-to-moria
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/return-to-moria-0.1.0/return-to-moria-0.1.0.tgz
+    version: 0.1.0
   satisfactory:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -790,6 +801,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/subnautica-0.1.0/subnautica-0.1.0.tgz
     version: 0.1.0
+  synology-vdsm:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-10T22:19:46.654902557Z"
+    description: A Helm chart for Kubernetes
+    digest: 84aa3567dee8ba8904a8c1be1af575624c156604be72750ef664ccbe7efe1afc
+    name: synology-vdsm
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/synology-vdsm-0.1.0/synology-vdsm-0.1.0.tgz
+    version: 0.1.0
   the-forest:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -823,4 +845,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-01-10T22:18:15.396348939Z"
+generated: "2025-01-10T22:19:46.828372668Z"
