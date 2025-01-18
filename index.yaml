@@ -124,6 +124,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.0.0/cert-manager-1.0.0.tgz
     version: 1.0.0
+  configarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-01-18T16:23:10.01191203Z"
+    description: A Helm chart for Kubernetes
+    digest: d6283edecb09db1f4e421314d98037475e42aeb904b1839bd280822068f873d9
+    name: configarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/configarr-0.1.1/configarr-0.1.1.tgz
+    version: 0.1.1
   dendrite:
   - apiVersion: v2
     appVersion: 0.13.8
@@ -845,4 +856,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-01-10T22:19:46.828372668Z"
+generated: "2025-01-18T16:23:10.012010634Z"
