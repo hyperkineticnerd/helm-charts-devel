@@ -411,6 +411,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/matrix-synapse-0.1.0/matrix-synapse-0.1.0.tgz
     version: 0.1.0
+  metube:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-01T01:12:12.916982337Z"
+    description: A Helm chart for Kubernetes
+    digest: 76a0a6347c31b1f0f31a860c865dd1085fd1463affbede5f09aae966e57fd156
+    name: metube
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/metube-0.1.0/metube-0.1.0.tgz
+    version: 0.1.0
   netbox:
   - apiVersion: v2
     appVersion: 4.1.1
@@ -866,4 +877,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-01-19T02:27:34.002003432Z"
+generated: "2025-02-01T01:12:12.917081261Z"
