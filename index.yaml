@@ -414,6 +414,16 @@ entries:
   metube:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-03T03:47:52.612745434Z"
+    description: A Helm chart for Kubernetes
+    digest: 62185b65504463eeaf34fcf671a6b97d0610f62080b4361aff54887d115ba4e3
+    name: metube
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/metube-0.1.1/metube-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-01T01:12:12.916982337Z"
     description: A Helm chart for Kubernetes
     digest: 76a0a6347c31b1f0f31a860c865dd1085fd1463affbede5f09aae966e57fd156
@@ -888,4 +898,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-02-01T14:15:18.26749873Z"
+generated: "2025-02-03T03:47:52.612839519Z"
