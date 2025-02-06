@@ -60,6 +60,16 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.4.5
+    created: "2025-02-06T20:46:45.090243448Z"
+    description: A Helm chart for Kubernetes
+    digest: 2fd1361b28c78557cf9e6d622c3d71216fccc315b720bfc82f273eddbe8940a0
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/bazarr-0.9.4/bazarr-0.9.4.tgz
+    version: 0.9.4
+  - apiVersion: v2
+    appVersion: 1.4.5
     created: "2025-01-10T22:18:14.905378889Z"
     description: A Helm chart for Kubernetes
     digest: 5b8ddaf8a4bebb567414f1da7303d29451750cdf89b4f9f6b858a39f5b4e8df7
@@ -317,6 +327,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.0/jellyseerr-0.1.0.tgz
     version: 0.1.0
   lidarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-06T20:46:45.184365977Z"
+    description: A Helm chart for Kubernetes
+    digest: e68d01c5a17cc97d05893a362b0da97a5dcf86ccbb9e7ae1365c9108da0561ee
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.9.4/lidarr-0.9.4.tgz
+    version: 0.9.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T22:18:15.047332662Z"
@@ -639,6 +659,16 @@ entries:
   prowlarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-06T20:46:45.276680505Z"
+    description: A Helm chart for Kubernetes
+    digest: fb15c0beef44bf5e8cb663b2655d5fbe06ef56665432fc17d0eb3034f7ca563b
+    name: prowlarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/prowlarr-0.9.1/prowlarr-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-01-10T18:54:35.586216813Z"
     description: A Helm chart for Kubernetes
     digest: 41a5a0a9db07832420aa36331a476aca8fe8fca20f5e417eb04fab70324a58a9
@@ -658,6 +688,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/prowlarr-0.1.0/prowlarr-0.1.0.tgz
     version: 0.1.0
   radarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-06T20:46:45.368466961Z"
+    description: A Helm chart for Kubernetes
+    digest: fcc4246ade609f0e47c4c6cb8766678f0e18b4c8c412aad9d578c2e97ebd7ea7
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.9.4/radarr-0.9.4.tgz
+    version: 0.9.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T22:18:15.17362088Z"
@@ -709,6 +749,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
   readarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-06T20:46:45.462808648Z"
+    description: A Helm chart for Kubernetes
+    digest: 4617096a2df1aaf5da81855d4a6f37e1fa6ea93eac016dc20f2a70bd8622da39
+    name: readarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.9.4/readarr-0.9.4.tgz
+    version: 0.9.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T22:18:15.27523552Z"
@@ -782,6 +832,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/satisfactory-1.0.0/satisfactory-1.0.0.tgz
     version: 1.0.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-02-06T20:46:45.53837274Z"
+    description: A Helm chart for Kubernetes
+    digest: 0d6936701439dfc3ff29f6f62390c6644b66da964a87bf055d874533ebee1605
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sonarr-0.9.4/sonarr-0.9.4.tgz
+    version: 0.9.4
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-10T22:18:15.396163822Z"
@@ -898,4 +958,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-02-03T03:47:52.612839519Z"
+generated: "2025-02-06T20:46:45.538538489Z"
