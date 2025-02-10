@@ -939,6 +939,16 @@ entries:
   unifi:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-10T03:37:29.234994997Z"
+    description: A Helm chart for Kubernetes
+    digest: 0d1a24fd160b85135b5aca79c9c05971768aadb40bb8d8f369be8e3856778abe
+    name: unifi
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/unifi-0.1.1/unifi-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2024-12-14T14:20:49.047405563Z"
     description: A Helm chart for Kubernetes
     digest: 59e282e0f5456d7cc817c50fab7267ea95e5d28772af816bdf70dd7bd0043a6d
@@ -958,4 +968,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-02-06T20:46:45.538538489Z"
+generated: "2025-02-10T03:37:29.392640031Z"
