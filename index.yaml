@@ -600,6 +600,16 @@ entries:
   omada:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-02-18T02:34:00.103555213Z"
+    description: A Helm chart for Kubernetes
+    digest: 912115259015c620dfea214656dc36baf24dad19e73b2763ff442cbc258a9df0
+    name: omada
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/omada-0.1.1/omada-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-01T14:15:18.104748095Z"
     description: A Helm chart for Kubernetes
     digest: 0513f9845f2bc67bf55efa0f7a61ec120cafe22381fad70b1ab2cea63d591932
@@ -968,4 +978,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-02-10T03:37:29.392640031Z"
+generated: "2025-02-18T02:34:00.219792075Z"
