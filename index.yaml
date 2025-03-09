@@ -990,6 +990,16 @@ entries:
   tdarr-server:
   - apiVersion: v2
     appVersion: 2.35.02
+    created: "2025-03-09T18:48:01.170346157Z"
+    description: A Helm chart for Kubernetes
+    digest: 402e0ed7b1da14dee9ab998aef20ec85829911eec62cf43f3f0db6af1d9d4456
+    name: tdarr-server
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-server-0.1.2/tdarr-server-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 2.35.02
     created: "2025-03-09T15:59:14.993523725Z"
     description: A Helm chart for Kubernetes
     digest: 6c88fe0df4d55622d69f360a30dfa1fa9a7dcb9526998b5b25644db0afa565c0
@@ -1051,4 +1061,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-09T18:42:55.252366684Z"
+generated: "2025-03-09T18:48:01.170434502Z"
