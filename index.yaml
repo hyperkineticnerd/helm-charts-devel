@@ -840,6 +840,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/return-to-moria-0.1.0/return-to-moria-0.1.0.tgz
     version: 0.1.0
+  sabnzbd:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-09T05:40:22.682858339Z"
+    description: A Helm chart for Kubernetes
+    digest: 1a5137ea64e2b4fcb0a6d2bca11d435b0a8451ff44ee4095475acf9627ce4cd7
+    name: sabnzbd
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sabnzbd-0.1.0/sabnzbd-0.1.0.tgz
+    version: 0.1.0
   satisfactory:
   - apiVersion: v2
     appVersion: 1.0.0
@@ -1010,4 +1021,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-09T05:39:47.272459939Z"
+generated: "2025-03-09T05:40:22.682980207Z"
