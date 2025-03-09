@@ -958,6 +958,16 @@ entries:
     version: 0.1.0
   tdarr-node:
   - apiVersion: v2
+    appVersion: 2.35.02
+    created: "2025-03-09T15:59:14.900284544Z"
+    description: A Helm chart for Kubernetes
+    digest: e6b62248c7e3c220619ccb03501af2b7fdb3e8be206e7be5f9ef52ddd2c8ffd8
+    name: tdarr-node
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-node-0.1.1/tdarr-node-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-03-09T05:39:47.110137285Z"
     description: A Helm chart for Kubernetes
@@ -968,6 +978,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-node-0.1.0/tdarr-node-0.1.0.tgz
     version: 0.1.0
   tdarr-server:
+  - apiVersion: v2
+    appVersion: 2.35.02
+    created: "2025-03-09T15:59:14.993523725Z"
+    description: A Helm chart for Kubernetes
+    digest: 6c88fe0df4d55622d69f360a30dfa1fa9a7dcb9526998b5b25644db0afa565c0
+    name: tdarr-server
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-server-0.1.1/tdarr-server-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-03-09T05:39:47.272333984Z"
@@ -1021,4 +1041,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-09T05:40:22.682980207Z"
+generated: "2025-03-09T15:59:14.993653147Z"
