@@ -700,6 +700,16 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-09T05:39:46.978331154Z"
+    description: A Helm chart for Kubernetes
+    digest: d3b8cf0184d7dfd76fd81f0b39a7d83d07c6fe8935da3822d830f5dd8c6f38e7
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.9.5/radarr-0.9.5.tgz
+    version: 0.9.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-06T20:46:45.368466961Z"
     description: A Helm chart for Kubernetes
     digest: fcc4246ade609f0e47c4c6cb8766678f0e18b4c8c412aad9d578c2e97ebd7ea7
@@ -935,6 +945,28 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/synology-vdsm-0.1.0/synology-vdsm-0.1.0.tgz
     version: 0.1.0
+  tdarr-node:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-09T05:39:47.110137285Z"
+    description: A Helm chart for Kubernetes
+    digest: eb25ac3f9a63df75372655fe8b6fa2a2eff9f3c45a48364e686dbe797e1c18b6
+    name: tdarr-node
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-node-0.1.0/tdarr-node-0.1.0.tgz
+    version: 0.1.0
+  tdarr-server:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-09T05:39:47.272333984Z"
+    description: A Helm chart for Kubernetes
+    digest: febbd9722f6278589aef022986efe28fa17f6ec8e25a7a4d48686aa3e1d31afd
+    name: tdarr-server
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-server-0.1.0/tdarr-server-0.1.0.tgz
+    version: 0.1.0
   the-forest:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -978,4 +1010,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-02-18T02:34:00.219792075Z"
+generated: "2025-03-09T05:39:47.272459939Z"
