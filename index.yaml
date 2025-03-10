@@ -865,6 +865,22 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/return-to-moria-0.1.0/return-to-moria-0.1.0.tgz
     version: 0.1.0
+  rhbk:
+  - apiVersion: v2
+    appVersion: 26.0.9
+    created: "2025-03-10T22:23:39.053263698Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.1
+    description: A Helm chart for Kubernetes
+    digest: 51fab0d27301657d23b2785192dbf79999b105021aa2941ae518b33b6a55d0d5
+    name: rhbk
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/rhbk-0.1.0/rhbk-0.1.0.tgz
+    version: 0.1.0
   sabnzbd:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1086,4 +1102,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-10T22:00:10.362123992Z"
+generated: "2025-03-10T22:23:39.053387649Z"
