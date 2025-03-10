@@ -136,6 +136,16 @@ entries:
     version: 1.0.0
   configarr:
   - apiVersion: v2
+    appVersion: 1.13.1
+    created: "2025-03-10T21:21:52.459229365Z"
+    description: A Helm chart for Kubernetes
+    digest: 29b7fd080ad651d671fe35a50bdce7e102cb9bfb44478ac7bed93ed4f0a332d5
+    name: configarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/configarr-0.1.3/configarr-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-01-19T02:27:34.001901882Z"
     description: A Helm chart for Kubernetes
@@ -1061,4 +1071,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-09T18:48:01.170434502Z"
+generated: "2025-03-10T21:21:52.45934413Z"
