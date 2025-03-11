@@ -354,6 +354,16 @@ entries:
   lidarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-11T02:58:00.928970754Z"
+    description: A Helm chart for Kubernetes
+    digest: 6044ae52a988bb72ea1c3e7aa564a8e3816813e5ce72122f4846e9b06ccd50df
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.9.5/lidarr-0.9.5.tgz
+    version: 0.9.5
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-02-06T20:46:45.184365977Z"
     description: A Helm chart for Kubernetes
     digest: e68d01c5a17cc97d05893a362b0da97a5dcf86ccbb9e7ae1365c9108da0561ee
@@ -478,6 +488,25 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/metube-0.1.0/metube-0.1.0.tgz
     version: 0.1.0
   netbox:
+  - apiVersion: v2
+    appVersion: 4.2.5
+    created: "2025-03-11T02:58:01.051791529Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 15.5.37
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 20.11.3
+    description: A Helm chart for Kubernetes
+    digest: 63b32ac51fd4320fa0ea4d5c5d82d85cb49cec9d4a2ad0cfe8a390255c309afd
+    name: netbox
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.2.6/netbox-0.2.6.tgz
+    version: 0.2.6
   - apiVersion: v2
     appVersion: 4.1.1
     created: "2024-12-14T14:20:48.127052011Z"
@@ -642,6 +671,33 @@ entries:
     type: application
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/omada-0.1.0/omada-0.1.0.tgz
+    version: 0.1.0
+  openshift-servicemesh:
+  - apiVersion: v2
+    appVersion: 2.4.4
+    created: "2025-03-11T02:58:01.148822509Z"
+    dependencies:
+    - alias: istio
+      condition: istio.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.1
+    - alias: jaeger
+      condition: jaeger.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.1
+    - alias: kiali
+      condition: kiali.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.1
+    description: A Helm chart for Kubernetes
+    digest: 87aff7d9733f0a7a3456062343df7f498cccfea09d9a2b06c0cb468bf9a873ed
+    name: openshift-servicemesh
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/openshift-servicemesh-0.1.0/openshift-servicemesh-0.1.0.tgz
     version: 0.1.0
   openshift-servicemesh-operator:
   - apiVersion: v2
@@ -1102,4 +1158,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-10T22:23:39.053387649Z"
+generated: "2025-03-11T02:58:01.149012594Z"
