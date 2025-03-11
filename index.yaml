@@ -121,6 +121,21 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.15.0
+    created: "2025-03-11T19:00:24.112396718Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.2.0
+    description: A Helm chart for Kubernetes
+    digest: 9d930447a8b7a1f569515de8e65d770e7dfb82be0c809a04b6551f6f0b8e01b5
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.1.0/cert-manager-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.15.0
     created: "2025-03-11T18:06:52.795721358Z"
     dependencies:
     - alias: operator
@@ -1036,6 +1051,22 @@ entries:
   rhbk:
   - apiVersion: v2
     appVersion: 26.0.9
+    created: "2025-03-11T19:00:24.222437904Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.2.0
+    description: A Helm chart for Kubernetes
+    digest: 64fa9a9683d3e563cb15a7180ce522e0f135b666b14ac81b3c183757a177d3f5
+    name: rhbk
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/rhbk-0.2.0/rhbk-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 26.0.9
     created: "2025-03-11T18:06:52.905899406Z"
     dependencies:
     - alias: operator
@@ -1317,4 +1348,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-11T18:06:52.906066116Z"
+generated: "2025-03-11T19:00:24.222605025Z"
