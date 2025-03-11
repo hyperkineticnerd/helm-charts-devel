@@ -121,6 +121,21 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.15.0
+    created: "2025-03-11T17:47:17.23297248Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: 2f8111ea47a9d66b245a1d1489b5c6ee9845936402c5384a1ae6ccf91ad8de1a
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.0.3/cert-manager-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
+    appVersion: 1.15.0
     created: "2025-03-11T11:56:31.522806992Z"
     dependencies:
     - condition: operator.enable
@@ -278,6 +293,21 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/enshrouded-0.1.0/enshrouded-0.1.0.tgz
     version: 0.1.0
   external-dns-operator:
+  - apiVersion: v2
+    appVersion: 1.1.5
+    created: "2025-03-11T17:47:17.383053887Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: 73f01be73886ae7cc08cd9dbb7a5ee9c0f265599f75f0b538d6e81db32f7d3b1
+    name: external-dns-operator
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/external-dns-operator-0.1.2/external-dns-operator-0.1.2.tgz
+    version: 0.1.2
   - apiVersion: v2
     appVersion: 1.1.5
     created: "2025-03-11T11:56:31.63499795Z"
@@ -453,6 +483,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.1.0/lidarr-0.1.0.tgz
     version: 0.1.0
   lvm-storage:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-11T17:47:17.508310348Z"
+    description: A Helm chart for Kubernetes
+    digest: c84a2f014af18b2d6ad34f267c34cdeb6fc6ba8c6b67c5f5936bf7a3347cede5
+    name: lvm-storage
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lvm-storage-0.1.1/lvm-storage-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2024-09-30T04:02:35.501472332Z"
@@ -980,6 +1020,22 @@ entries:
   rhbk:
   - apiVersion: v2
     appVersion: 26.0.9
+    created: "2025-03-11T17:47:17.607349383Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: 1db5500ab119c3a6bc71c91c889b722d25b368f5d8ebb17b021b3920ae49b730
+    name: rhbk
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/rhbk-0.1.2/rhbk-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 26.0.9
     created: "2025-03-11T11:56:31.85038712Z"
     dependencies:
     - condition: operator.enable
@@ -1229,4 +1285,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-11T11:56:31.850552548Z"
+generated: "2025-03-11T17:47:17.607532466Z"
