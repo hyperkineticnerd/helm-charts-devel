@@ -121,6 +121,21 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.15.0
+    created: "2025-03-11T11:56:31.522806992Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: a056bf524e7c5a7eb8eef68e871df813e63bf3a7266e143e7440eee53ebae594
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.0.2/cert-manager-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: 1.15.0
     created: "2025-03-10T22:00:10.362002867Z"
     dependencies:
     - condition: operator.enable
@@ -263,6 +278,21 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/enshrouded-0.1.0/enshrouded-0.1.0.tgz
     version: 0.1.0
   external-dns-operator:
+  - apiVersion: v2
+    appVersion: 1.1.5
+    created: "2025-03-11T11:56:31.63499795Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: d8219c7cdcd4d8d2ba85ca6a57200a54ea3d9af330ed87e419b64849576781b5
+    name: external-dns-operator
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/external-dns-operator-0.1.1/external-dns-operator-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.1.5
     created: "2024-09-30T04:02:35.035164358Z"
@@ -675,6 +705,32 @@ entries:
   openshift-servicemesh:
   - apiVersion: v2
     appVersion: 2.4.4
+    created: "2025-03-11T11:56:31.755275045Z"
+    dependencies:
+    - alias: istio
+      condition: istio.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    - alias: jaeger
+      condition: jaeger.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    - alias: kiali
+      condition: kiali.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: 0ffd1f2102a296331e8348a17a7204bff611e8932e17a76ac625cf54a2ee832b
+    name: openshift-servicemesh
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/openshift-servicemesh-0.1.1/openshift-servicemesh-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2.4.4
     created: "2025-03-11T02:58:01.148822509Z"
     dependencies:
     - alias: istio
@@ -924,6 +980,21 @@ entries:
   rhbk:
   - apiVersion: v2
     appVersion: 26.0.9
+    created: "2025-03-11T11:56:31.85038712Z"
+    dependencies:
+    - condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.0.2
+    description: A Helm chart for Kubernetes
+    digest: fafd7f66d344a1240e29f39bfc8f3283ad6353f1893b69088e93b55dbf331887
+    name: rhbk
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/rhbk-0.1.1/rhbk-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 26.0.9
     created: "2025-03-10T22:23:39.053263698Z"
     dependencies:
     - condition: operator.enable
@@ -1158,4 +1229,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-11T02:58:01.149012594Z"
+generated: "2025-03-11T11:56:31.850552548Z"
