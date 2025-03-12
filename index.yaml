@@ -741,6 +741,22 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/netbox-0.1.0/netbox-0.1.0.tgz
     version: 0.1.0
+  nmstate:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-12T15:22:20.657157037Z"
+    dependencies:
+    - alias: operator
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.2.0
+    description: A Helm chart for Kubernetes
+    digest: ec45ea943eafe3e8dc86fa4b74727fbffab66c3ecf2074bc40ba053bec4f67b4
+    name: nmstate
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/nmstate-0.1.0/nmstate-0.1.0.tgz
+    version: 0.1.0
   obico:
   - apiVersion: v2
     appVersion: 1.1.5
@@ -1348,4 +1364,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-11T19:00:24.222605025Z"
+generated: "2025-03-12T15:22:20.65730846Z"
