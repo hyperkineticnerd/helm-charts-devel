@@ -773,6 +773,23 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/nmstate-0.1.0/nmstate-0.1.0.tgz
     version: 0.1.0
+  nvidia:
+  - apiVersion: v2
+    appVersion: v24.9
+    created: "2025-03-12T19:08:31.794850234Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.2.0
+    description: A Helm chart for Kubernetes
+    digest: 53d7b4f869486d4e63f24cb1a8cfee8069afd69467515fb96338e0fbc8022e71
+    name: nvidia
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/nvidia-0.1.0/nvidia-0.1.0.tgz
+    version: 0.1.0
   obico:
   - apiVersion: v2
     appVersion: 1.1.5
@@ -1400,4 +1417,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-12T19:07:51.904535327Z"
+generated: "2025-03-12T19:08:31.795053894Z"
