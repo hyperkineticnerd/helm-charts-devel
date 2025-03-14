@@ -531,6 +531,22 @@ entries:
     version: 0.1.0
   lvm-storage:
   - apiVersion: v2
+    appVersion: 4.16.0
+    created: "2025-03-14T15:38:07.499773884Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enable
+      name: olm-operator
+      repository: https://blog.hyperkineticnerd.com/helm-charts-stable/
+      version: 1.2.0
+    description: A Helm chart for Kubernetes
+    digest: 9a9f3fbcdaded29a847ff92f33fe2349d957cee7b3ec461800ce33c466810419
+    name: lvm-storage
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lvm-storage-0.2.0/lvm-storage-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-03-11T17:47:17.508310348Z"
     description: A Helm chart for Kubernetes
@@ -1417,4 +1433,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-12T19:08:31.795053894Z"
+generated: "2025-03-14T15:38:07.499912172Z"
