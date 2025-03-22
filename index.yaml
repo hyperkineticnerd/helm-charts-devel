@@ -60,6 +60,16 @@ entries:
   bazarr:
   - apiVersion: v2
     appVersion: 1.4.5
+    created: "2025-03-22T16:36:25.952871961Z"
+    description: A Helm chart for Kubernetes
+    digest: b76942f04175529af260c511a5fe0c89f4169f5b092228e089a9a83ae3cbb458
+    name: bazarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/bazarr-0.9.5/bazarr-0.9.5.tgz
+    version: 0.9.5
+  - apiVersion: v2
+    appVersion: 1.4.5
     created: "2025-02-06T20:46:45.090243448Z"
     description: A Helm chart for Kubernetes
     digest: 2fd1361b28c78557cf9e6d622c3d71216fccc315b720bfc82f273eddbe8940a0
@@ -459,6 +469,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/jellyseerr-0.1.0/jellyseerr-0.1.0.tgz
     version: 0.1.0
   lidarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-22T16:36:26.050631615Z"
+    description: A Helm chart for Kubernetes
+    digest: ba73e3c091c583a89387f86fd05ba0c7ed5a04f5a653fcf0cdcc79ad0c45e9e1
+    name: lidarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/lidarr-0.9.6/lidarr-0.9.6.tgz
+    version: 0.9.6
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-03-11T02:58:00.928970754Z"
@@ -983,6 +1003,16 @@ entries:
   radarr:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-22T16:36:26.161377837Z"
+    description: A Helm chart for Kubernetes
+    digest: 06b9911e293c379a9767b0271fc870969e4eac3c9011d56fdba2c67f69634287
+    name: radarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.9.6/radarr-0.9.6.tgz
+    version: 0.9.6
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-03-09T05:39:46.978331154Z"
     description: A Helm chart for Kubernetes
     digest: d3b8cf0184d7dfd76fd81f0b39a7d83d07c6fe8935da3822d830f5dd8c6f38e7
@@ -1052,6 +1082,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/radarr-0.1.0/radarr-0.1.0.tgz
     version: 0.1.0
   readarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-22T16:36:26.256340099Z"
+    description: A Helm chart for Kubernetes
+    digest: a5742776c9ef9dd8c917ce7dd40c73dc48f67162e864b506a586845a72bdaec2
+    name: readarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.9.5/readarr-0.9.5.tgz
+    version: 0.9.5
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-02-06T20:46:45.462808648Z"
@@ -1205,6 +1245,16 @@ entries:
   sabnzbd:
   - apiVersion: v2
     appVersion: 1.16.0
+    created: "2025-03-22T16:36:26.361577897Z"
+    description: A Helm chart for Kubernetes
+    digest: d74f6b7ea5e0a436d6b816f4ed1e70a2b9e89d81b6d6ff3b7b53b5e8d5071fe5
+    name: sabnzbd
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sabnzbd-0.1.1/sabnzbd-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
     created: "2025-03-09T05:40:22.682858339Z"
     description: A Helm chart for Kubernetes
     digest: 1a5137ea64e2b4fcb0a6d2bca11d435b0a8451ff44ee4095475acf9627ce4cd7
@@ -1225,6 +1275,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/satisfactory-1.0.0/satisfactory-1.0.0.tgz
     version: 1.0.0
   sonarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-22T16:36:26.461984287Z"
+    description: A Helm chart for Kubernetes
+    digest: a776eb21b05bb8141850021fcbfeec709ea4dc9112138121d4d096a95911a66a
+    name: sonarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/sonarr-0.9.5/sonarr-0.9.5.tgz
+    version: 0.9.5
   - apiVersion: v2
     appVersion: 1.16.0
     created: "2025-02-06T20:46:45.53837274Z"
@@ -1453,4 +1513,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-22T15:18:18.562358239Z"
+generated: "2025-03-22T16:36:26.462224245Z"
