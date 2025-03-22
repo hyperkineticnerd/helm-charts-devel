@@ -131,6 +131,22 @@ entries:
   cert-manager:
   - apiVersion: v2
     appVersion: 1.15.0
+    created: "2025-03-22T21:27:23.786339452Z"
+    dependencies:
+    - alias: operator
+      condition: operator.enable
+      name: olm-operator
+      repository: https://stable-charts.hyperkineticnerd.com
+      version: 1.2.1
+    description: A Helm chart for Kubernetes
+    digest: 2410bfc3f60fb8c0429c83eb4c2b8c2e82ca36593ff48de49f1d8cc6acd80815
+    name: cert-manager
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/cert-manager-1.2.3/cert-manager-1.2.3.tgz
+    version: 1.2.3
+  - apiVersion: v2
+    appVersion: 1.15.0
     created: "2025-03-22T20:59:46.046319577Z"
     dependencies:
     - alias: operator
@@ -1545,4 +1561,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-22T20:59:46.046500554Z"
+generated: "2025-03-22T21:27:23.786552335Z"
