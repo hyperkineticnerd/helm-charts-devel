@@ -888,6 +888,16 @@ entries:
   omada:
   - apiVersion: v2
     appVersion: 5.15.8.2
+    created: "2025-04-12T16:23:11.782517154Z"
+    description: A Helm chart for Kubernetes
+    digest: 81390435f344932289ca32ce3ca7f68e9b78dbe543b36b5a0702081b45bc7d75
+    name: omada
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/omada-0.2.1/omada-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 5.15.8.2
     created: "2025-03-12T18:04:24.331859648Z"
     description: A Helm chart for Kubernetes
     digest: 38f7f7e4a6017c972a930cad2afbad1c692a00e1205400f4283a90a09a1fafdf
@@ -1429,6 +1439,16 @@ entries:
   tdarr-node:
   - apiVersion: v2
     appVersion: 2.35.02
+    created: "2025-04-12T16:23:11.90447926Z"
+    description: A Helm chart for Kubernetes
+    digest: 97e142b5b40d948deb9592c632bdb11f756a12b97cd6b848590faf514a169ef6
+    name: tdarr-node
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-node-0.1.4/tdarr-node-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v2
+    appVersion: 2.35.02
     created: "2025-03-22T15:13:51.268148837Z"
     description: A Helm chart for Kubernetes
     digest: b423b79f6eacd9606b1e85bace125e08cb6470385dd4d8278f12874e5320b20c
@@ -1468,6 +1488,16 @@ entries:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-node-0.1.0/tdarr-node-0.1.0.tgz
     version: 0.1.0
   tdarr-server:
+  - apiVersion: v2
+    appVersion: 2.35.02
+    created: "2025-04-12T16:23:12.036575222Z"
+    description: A Helm chart for Kubernetes
+    digest: 4a5befde52600fe47e8010c6a42c575a355974245472403090d140751af4105e
+    name: tdarr-server
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/tdarr-server-0.1.4/tdarr-server-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v2
     appVersion: 2.35.02
     created: "2025-03-22T15:18:18.562194955Z"
@@ -1522,6 +1552,16 @@ entries:
   unifi:
   - apiVersion: v2
     appVersion: v9.0.108
+    created: "2025-04-12T16:23:12.147085366Z"
+    description: A Helm chart for Kubernetes
+    digest: 7c63614bf0dfa7363b5142da48e59f51a8fb0e226673ee0d022c601c00f5f5d2
+    name: unifi
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/unifi-0.2.1/unifi-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: v9.0.108
     created: "2025-03-12T18:04:24.523077418Z"
     description: A Helm chart for Kubernetes
     digest: 6d7bfd9cba2ba406d5d8662fa0b8b58ac1dae53fc21cd45b8e60f49fa9af79e4
@@ -1561,4 +1601,4 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-03-22T21:27:23.786552335Z"
+generated: "2025-04-12T16:23:12.147293885Z"
