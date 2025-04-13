@@ -1220,6 +1220,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/readarr-0.1.0/readarr-0.1.0.tgz
     version: 0.1.0
+  redirecterr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-13T22:52:11.672715944Z"
+    description: A Helm chart for Kubernetes
+    digest: 73a66209a6127781ea5e536cf156bd2490be66a326318a10d0197fb9fb855e02
+    name: redirecterr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/redirecterr-0.1.0/redirecterr-0.1.0.tgz
+    version: 0.1.0
   return-to-moria:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1630,6 +1641,17 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/unifi-0.1.0/unifi-0.1.0.tgz
     version: 0.1.0
+  unpackerr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-13T22:52:11.795382339Z"
+    description: A Helm chart for Kubernetes
+    digest: a151537b35bb02c8b55873c1b37ce689f88812e0668d218c577ed1e81ff98d16
+    name: unpackerr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/unpackerr-0.1.0/unpackerr-0.1.0.tgz
+    version: 0.1.0
   valheim:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -1641,4 +1663,15 @@ entries:
     urls:
     - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/valheim-0.1.5/valheim-0.1.5.tgz
     version: 0.1.5
-generated: "2025-04-12T19:46:07.423567231Z"
+  wizarr:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-04-13T22:52:11.900889758Z"
+    description: A Helm chart for Kubernetes
+    digest: aa742b82352186bbce00de1260c0b498fc09863cb73e37b4d3518670783690c5
+    name: wizarr
+    type: application
+    urls:
+    - https://github.com/hyperkineticnerd/helm-charts-devel/releases/download/wizarr-0.1.0/wizarr-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-04-13T22:52:11.902209494Z"
